@@ -40,7 +40,7 @@
     "logo": "https://accentor.no/8c0a254a-90a8-45a0-bae7-a5d70a2edb9d.jpg",
     "image": "https://accentor.no/8c0a254a-90a8-45a0-bae7-a5d70a2edb9d.jpg",
     "telephone": "+4747872175",
-    "email": "post@accentor.no",
+    "email": "info@accentor.no",
     "foundingDate": "2010",
     "address": {
       "@type": "PostalAddress",
@@ -1693,6 +1693,33 @@
     /* ─── Prisliste ─────────────────────────────────────────────── */
     #prisliste { background: var(--bg); }
 
+    .price-inquiry-banner {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(245,166,35,0.08);
+      border: 1px solid rgba(245,166,35,0.3);
+      border-radius: 10px;
+      padding: 14px 20px;
+      margin-bottom: 40px;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.8);
+    }
+
+    .price-inquiry-banner svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .price-inquiry-banner a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .price-table-wrap {
       display: flex;
       flex-direction: column;
@@ -1733,10 +1760,12 @@
       vertical-align: middle;
     }
 
+    .price-table .pt-price { display: none; }
+
     .price-table .pt-name {
       color: rgba(255,255,255,0.85);
       font-weight: 500;
-      width: 55%;
+      width: 68%;
     }
 
     .price-table .pt-name.pt-sub {
@@ -1952,7 +1981,7 @@
         <li><a href="#tjenester">Tjenester</a></li>
         <li><a href="#slik-fungerer">Slik fungerer det</a></li>
         <li><a href="#dieseltanker">Dieseltanker</a></li>
-        <li><a href="#prisliste">Prisliste</a></li>
+        <li><a href="#prisliste">Produkter</a></li>
         <li><a href="#hvorfor">Hvorfor oss</a></li>
         <li><a href="#om-oss">Om oss</a></li>
         <li><a href="#kontakt" class="nav-cta">Ta kontakt</a></li>
@@ -2267,7 +2296,7 @@
           <!-- DTD-2990 -->
           <div class="product-card reveal reveal-delay-2">
             <div class="product-card-img">
-              <img src="86HB1YZG0G.png" alt="DTD-2990 dieseltank" loading="lazy" />
+              <img src="Fuelk-DTD3000-2-13_Camera_SOLIDWORKS-Viewport-6.jpg" alt="DTD-2990 dieseltank" loading="lazy" />
             </div>
             <div class="product-card-body">
               <div class="product-card-top">
@@ -2307,7 +2336,7 @@
           <!-- FK970 -->
           <div class="product-card reveal reveal-delay-1">
             <div class="product-card-img">
-              <img src="86HB1YZG0G.png" alt="FK970 tankvogn" loading="lazy" />
+              <img src="Fuelk-pankko970-8.jpg" alt="FK970 tankvogn" loading="lazy" />
             </div>
             <div class="product-card-body">
               <div class="product-card-top">
@@ -2336,10 +2365,15 @@
 
       <div class="section-header reveal">
         <div>
-          <div class="section-tag">Prisliste</div>
-          <h2 class="section-title">Produkter &amp; priser</h2>
-          <p class="section-sub">Alle priser er ekskl. MVA. Ta kontakt for skreddersydd tilbud.</p>
+          <div class="section-tag">Produktoversikt</div>
+          <h2 class="section-title">Produkter &amp; utstyr</h2>
+          <p class="section-sub">Oversikt over produkter og varenummer. Pris fås ved forespørsel.</p>
         </div>
+      </div>
+
+      <div class="price-inquiry-banner reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>Alle priser fås ved forespørsel. <a href="#kontakt">Ta kontakt</a> så sender vi deg et tilbud.</span>
       </div>
 
       <div class="price-table-wrap">
@@ -2509,24 +2543,24 @@
           <h2 class="section-title reveal reveal-delay-1">Erfaring du kan<br /><span class="accent">stole på</span></h2>
           <div class="about-body reveal reveal-delay-2">
             <p>
-              <strong>Accentor AS</strong> er et norsk selskap basert i <strong>Hamnvik, 9450</strong>, med lang erfaring innen maskinservice og reparasjon av anleggsutstyr i Troms og Nord-Norge. Vi ble etablert med én klar ambisjon: å levere faglig dyktighet kombinert med rask, fleksibel service — uansett hvor i regionen du opererer.
+              <strong>Accentor AS</strong> er et norsk selskap basert i <strong>Hamnvik, 9450</strong>, med lang erfaring innen maskinservice, reparasjoner og salg av utstyr til anleggsbransjen. Vi utfører service og reparasjoner på anleggsmaskiner, driver <strong>delesalg</strong> og er leverandør av kvalitetsutstyr — alt under ett tak.
             </p>
             <p>
-              Vårt team består av sertifiserte teknikere med inngående kunnskap om alt fra store gravemaskiner, hjullastere og dumpers til spesialmaskiner og mobile løsninger. Vi har solid erfaring med hydraulikk, motor- og drivsystemer samt elektriske systemer på de vanligste anleggsmaskinene i markedet. Enten det er en akutt maskinreparasjon midt i høysesong, eller en planlagt servicegjennomgang på en stille dag — <strong>Accentor stiller opp</strong>.
+              Vårt team består av sertifiserte teknikere med inngående kunnskap om alt fra store gravemaskiner, hjullastere og dumpers til spesialmaskiner og mobile løsninger. Vi har solid erfaring med hydraulikk, motor- og drivsystemer samt elektriske systemer. Enten det er en akutt reparasjon midt i høysesong, eller en planlagt servicegjennomgang — <strong>Accentor stiller opp</strong>.
             </p>
             <p>
-              I tillegg til tradisjonell maskinservice er vi leverandør av <strong>dieseltanker og drivstoffhåndteringsutstyr</strong> fra ledende merker. Vi fører hele Fuelk-serien inkludert DTD dobbeltveggede IBC-tanker, NAFTA stasjonære lagertanker, bærbare JERRY-tanker og AdBlue/UREA-løsninger. Alle tanker er UN/ADR-godkjente og oppfyller gjeldende krav til oppsamlingsbasseng og miljøsikkerhet.
+              Vi er også leverandør av <strong>dieseltanker og drivstoffhåndteringsutstyr</strong> fra ledende merker. Vi fører hele Fuelk-serien inkludert DTD dobbeltveggede IBC-tanker, bærbare JERRY-tanker og AdBlue/UREA-løsninger — alle UN/ADR-godkjente.
             </p>
             <p>
-              Vi betjener kunder i <strong>Hamnvik, Harstad, Tromsø, Narvik</strong> og øvrige deler av Troms og Nordland. Med mobilt verksted og kort responstid er vi aldri langt unna når maskinen stopper. Ta kontakt på <strong>+47 478 72 175</strong> for rask hjelp eller for å avtale serviceavtale.
+              Vi betjener kunder i <strong>Hamnvik, Harstad, Tromsø, Narvik</strong> og øvrige deler av Troms og Nordland. Ta kontakt på <strong>+47 478 72 175</strong> for rask hjelp, delesalg eller for å avtale serviceavtale.
             </p>
           </div>
           <div class="about-values reveal reveal-delay-3">
-            <span class="value-tag">Faglig dyktighet</span>
-            <span class="value-tag">Pålitelighet</span>
+            <span class="value-tag">Service & reparasjon</span>
+            <span class="value-tag">Delesalg</span>
+            <span class="value-tag">Salg av utstyr</span>
             <span class="value-tag">Rask respons</span>
             <span class="value-tag">Lokal forankring</span>
-            <span class="value-tag">Norsk kvalitet</span>
           </div>
         </div>
 
@@ -2584,7 +2618,7 @@
             </div>
             <div>
               <span class="contact-detail-label">E-post</span>
-              <span class="contact-detail-val">post@accentor.no</span>
+              <span class="contact-detail-val">info@accentor.no</span>
             </div>
           </div>
 
@@ -2679,7 +2713,7 @@
           <strong style="color:rgba(255,255,255,0.7);">Accentor AS</strong><br />
           Hamnvik, 9450 · Troms, Norge<br />
           <a href="tel:+4747872175" style="color:var(--muted);">+47 478 72 175</a> ·
-          <a href="mailto:post@accentor.no" style="color:var(--muted);">post@accentor.no</a>
+          <a href="mailto:info@accentor.no" style="color:var(--muted);">info@accentor.no</a>
         </address>
 
         <p class="footer-copy">&copy; 2026 Accentor AS. Alle rettigheter reservert. | Laget av <a href="https://scalemedia.no" target="_blank" rel="noopener noreferrer" class="footer-credit">Scale Media AS</a></p>
@@ -2687,7 +2721,7 @@
         <ul class="footer-links">
           <li><a href="#tjenester">Tjenester</a></li>
           <li><a href="#dieseltanker">Dieseltanker</a></li>
-          <li><a href="#prisliste">Prisliste</a></li>
+          <li><a href="#prisliste">Produkter</a></li>
           <li><a href="#om-oss">Om oss</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
@@ -2810,7 +2844,7 @@
       btn.disabled = true;
 
       try {
-        const res = await fetch('https://formsubmit.co/ajax/post@accentor.no', {
+        const res = await fetch('https://formsubmit.co/ajax/info@accentor.no', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({
